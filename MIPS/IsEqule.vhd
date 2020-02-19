@@ -1,0 +1,28 @@
+LIBRARY IEEE;
+USE IEEE.STD_LOGIC_1164.ALL;
+USE IEEE.STD_LOGIC_UNSIGNED.ALL;
+ENTITY IsEqule IS
+PORT (
+  ReadIn  : IN  STD_LOGIC_VECTOR(7 DOWNTO 0 );
+  WriteIn : IN STD_LOGIC_VECTOR(7 DOWNTO 0);
+  F  : OUT STD_LOGIC
+  );
+END IsEqule;
+ARCHITECTURE behav OF IsEqule IS
+BEGIN
+
+PROCESS(ReadIn,WriteIn)
+BEGIN
+
+IF WriteIn /= "00000000"
+Then 
+	IF ReadIn=WriteIn THEN
+	F<='1';
+	ELSE 
+    F<='0';
+    END IF;
+   ELSE 
+	F<='0';
+ END IF;
+ END PROCESS;
+END behav;

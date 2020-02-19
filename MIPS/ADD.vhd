@@ -1,0 +1,45 @@
+LIBRARY IEEE;
+USE IEEE.STD_LOGIC_1164.ALL;
+USE IEEE.STD_LOGIC_UNSIGNED.ALL;
+ENTITY ADD IS
+PORT (
+  Control: IN STD_LOGIC;
+  RST: IN STD_LOGIC; 
+  GATE: IN STD_LOGIC;
+  Init : IN STD_LOGIC_VECTOR(7 DOWNTO 0);
+  S  : IN  STD_LOGIC_VECTOR(7 DOWNTO 0 );
+  F  : OUT STD_LOGIC_VECTOR(7 DOWNTO 0)
+  );
+END ADD;
+ARCHITECTURE behav OF ADD IS
+
+
+BEGIN
+PROCESS(Control,GATE,RST,S,Init)
+ variable first :  STD_LOGIC;
+BEGIN
+
+IF Control='1' THEN
+ IF RST='1' THEN F<=Init;
+  ELSE 
+    IF GATE'event and GATE='1'
+    THEN
+    CASE first is 
+    when '0' => F<=Init;
+				first:='1';
+	when '1' => F<=S+1;
+	
+	when others => F<=Init;
+					first:='1';
+	end case;
+ END IF;
+ END IF;
+ END IF;
+ 
+ IF RST='1' THEN
+ F<=Init;
+ END IF;
+ 
+ 
+ END PROCESS;
+END behav;

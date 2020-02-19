@@ -1,0 +1,148 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2009 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+*/
+(header "symbol" (version "1.1"))
+(symbol
+	(rect 16 16 184 336)
+	(text "Translate" (rect 5 0 49 12)(font "Arial" ))
+	(text "inst" (rect 8 304 25 316)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "Ins[18..0]" (rect 0 0 47 12)(font "Arial" ))
+		(text "Ins[18..0]" (rect 21 27 68 39)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32)(line_width 3))
+	)
+	(port
+		(pt 168 32)
+		(output)
+		(text "RegDst" (rect 0 0 37 12)(font "Arial" ))
+		(text "RegDst" (rect 110 27 147 39)(font "Arial" ))
+		(line (pt 168 32)(pt 152 32)(line_width 1))
+	)
+	(port
+		(pt 168 48)
+		(output)
+		(text "RegRead" (rect 0 0 46 12)(font "Arial" ))
+		(text "RegRead" (rect 101 43 147 55)(font "Arial" ))
+		(line (pt 168 48)(pt 152 48)(line_width 1))
+	)
+	(port
+		(pt 168 64)
+		(output)
+		(text "ALUSrcA" (rect 0 0 44 12)(font "Arial" ))
+		(text "ALUSrcA" (rect 103 59 147 71)(font "Arial" ))
+		(line (pt 168 64)(pt 152 64)(line_width 1))
+	)
+	(port
+		(pt 168 80)
+		(output)
+		(text "MemRead" (rect 0 0 49 12)(font "Arial" ))
+		(text "MemRead" (rect 98 75 147 87)(font "Arial" ))
+		(line (pt 168 80)(pt 152 80)(line_width 1))
+	)
+	(port
+		(pt 168 96)
+		(output)
+		(text "MemWrite" (rect 0 0 49 12)(font "Arial" ))
+		(text "MemWrite" (rect 98 91 147 103)(font "Arial" ))
+		(line (pt 168 96)(pt 152 96)(line_width 1))
+	)
+	(port
+		(pt 168 112)
+		(output)
+		(text "MemtoReg" (rect 0 0 53 12)(font "Arial" ))
+		(text "MemtoReg" (rect 94 107 147 119)(font "Arial" ))
+		(line (pt 168 112)(pt 152 112)(line_width 1))
+	)
+	(port
+		(pt 168 128)
+		(output)
+		(text "Lord" (rect 0 0 21 12)(font "Arial" ))
+		(text "Lord" (rect 126 123 147 135)(font "Arial" ))
+		(line (pt 168 128)(pt 152 128)(line_width 1))
+	)
+	(port
+		(pt 168 144)
+		(output)
+		(text "IRWrite" (rect 0 0 37 12)(font "Arial" ))
+		(text "IRWrite" (rect 110 139 147 151)(font "Arial" ))
+		(line (pt 168 144)(pt 152 144)(line_width 1))
+	)
+	(port
+		(pt 168 160)
+		(output)
+		(text "PCWrite" (rect 0 0 41 12)(font "Arial" ))
+		(text "PCWrite" (rect 106 155 147 167)(font "Arial" ))
+		(line (pt 168 160)(pt 152 160)(line_width 1))
+	)
+	(port
+		(pt 168 176)
+		(output)
+		(text "PCWriteCond" (rect 0 0 67 12)(font "Arial" ))
+		(text "PCWriteCond" (rect 80 171 147 183)(font "Arial" ))
+		(line (pt 168 176)(pt 152 176)(line_width 1))
+	)
+	(port
+		(pt 168 192)
+		(output)
+		(text "PCControl" (rect 0 0 50 12)(font "Arial" ))
+		(text "PCControl" (rect 97 187 147 199)(font "Arial" ))
+		(line (pt 168 192)(pt 152 192)(line_width 1))
+	)
+	(port
+		(pt 168 208)
+		(output)
+		(text "SW_B" (rect 0 0 30 12)(font "Arial" ))
+		(text "SW_B" (rect 117 203 147 215)(font "Arial" ))
+		(line (pt 168 208)(pt 152 208)(line_width 1))
+	)
+	(port
+		(pt 168 224)
+		(output)
+		(text "RegControl" (rect 0 0 55 12)(font "Arial" ))
+		(text "RegControl" (rect 92 219 147 231)(font "Arial" ))
+		(line (pt 168 224)(pt 152 224)(line_width 1))
+	)
+	(port
+		(pt 168 240)
+		(output)
+		(text "ALUOp[1..0]" (rect 0 0 61 12)(font "Arial" ))
+		(text "ALUOp[1..0]" (rect 86 235 147 247)(font "Arial" ))
+		(line (pt 168 240)(pt 152 240)(line_width 3))
+	)
+	(port
+		(pt 168 256)
+		(output)
+		(text "ALUSrcB[1..0]" (rect 0 0 70 12)(font "Arial" ))
+		(text "ALUSrcB[1..0]" (rect 77 251 147 263)(font "Arial" ))
+		(line (pt 168 256)(pt 152 256)(line_width 3))
+	)
+	(port
+		(pt 168 272)
+		(output)
+		(text "PCSrc[1..0]" (rect 0 0 57 12)(font "Arial" ))
+		(text "PCSrc[1..0]" (rect 90 267 147 279)(font "Arial" ))
+		(line (pt 168 272)(pt 152 272)(line_width 3))
+	)
+	(drawing
+		(rectangle (rect 16 16 152 304)(line_width 1))
+	)
+)

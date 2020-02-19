@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="MIPS">
+		<CBX_INST_ENTRY INSTANCE_NAME="|MIPS|lpm_mux0:inst14|LPM_MUX:lpm_mux_component" CBX_FILE_NAME="mux_08e.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MIPS|lpm_mux1:inst31|LPM_MUX:lpm_mux_component" CBX_FILE_NAME="mux_t7e.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MIPS|lpm_mux4:inst45|LPM_MUX:lpm_mux_component" CBX_FILE_NAME="mux_g6e.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MIPS|lpm_mux5:inst39|LPM_MUX:lpm_mux_component" CBX_FILE_NAME="mux_96e.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MIPS|lMemory:inst5|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_5tk1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MIPS|lpm_mux1:inst16|LPM_MUX:lpm_mux_component" CBX_FILE_NAME="mux_t7e.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MIPS|lpm_mux1:inst36|LPM_MUX:lpm_mux_component" CBX_FILE_NAME="mux_t7e.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MIPS|lpm_mux3:inst23|LPM_MUX:lpm_mux_component" CBX_FILE_NAME="mux_v7e.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MIPS|lpm_mux1:inst15|LPM_MUX:lpm_mux_component" CBX_FILE_NAME="mux_t7e.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MIPS|lpm_mux1:inst19|LPM_MUX:lpm_mux_component" CBX_FILE_NAME="mux_t7e.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MIPS|lpm_mux1:inst20|LPM_MUX:lpm_mux_component" CBX_FILE_NAME="mux_t7e.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MIPS|lpm_mux2:inst18|LPM_MUX:lpm_mux_component" CBX_FILE_NAME="mux_d6e.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

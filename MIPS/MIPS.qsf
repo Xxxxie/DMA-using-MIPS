@@ -1,0 +1,188 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 1991-2009 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, Altera MegaCore Function License 
+# Agreement, or other applicable license agreement, including, 
+# without limitation, that your use is for the sole purpose of 
+# programming logic devices manufactured by Altera and sold by 
+# Altera or its authorized distributors.  Please refer to the 
+# applicable agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus II
+# Version 9.0 Build 132 02/25/2009 SJ Full Version
+# Date created = 19:03:43  March 09, 2017
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		MIPS_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus II software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone III"
+set_global_assignment -name DEVICE EP3C40Q240C8
+set_global_assignment -name TOP_LEVEL_ENTITY MIPS
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 9.0
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "19:03:43  MARCH 09, 2017"
+set_global_assignment -name LAST_QUARTUS_VERSION 9.0
+set_global_assignment -name USE_GENERATED_PHYSICAL_CONSTRAINTS OFF -section_id eda_blast_fpga
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name NOMINAL_CORE_SUPPLY_VOLTAGE 1.2V
+set_global_assignment -name SIMULATION_MODE TIMING
+set_global_assignment -name VHDL_FILE Reg.vhd
+set_global_assignment -name BDF_FILE L_Reg.bdf
+set_global_assignment -name BDF_FILE MIPS.bdf
+set_global_assignment -name VHDL_FILE decoder3_8.vhd
+set_global_assignment -name QIP_FILE lpm_bustri0.qip
+set_global_assignment -name BDF_FILE test.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE test.vwf
+set_global_assignment -name VHDL_FILE ALU.vhd
+set_global_assignment -name BDF_FILE Reg_s.bdf
+set_global_assignment -name VHDL_FILE MUX31.vhd
+set_global_assignment -name VECTOR_WAVEFORM_FILE MIPS.vwf
+set_global_assignment -name QIP_FILE lpm_latch0.qip
+set_global_assignment -name BDF_FILE Stmp.bdf
+set_global_assignment -name QIP_FILE lpm_counter0.qip
+set_global_assignment -name BDF_FILE Counter.bdf
+set_global_assignment -name QIP_FILE lpm_counter1.qip
+set_global_assignment -name MIF_FILE Pro_mif.mif
+set_global_assignment -name QIP_FILE lpm_rom1.qip
+set_global_assignment -name QIP_FILE lpm_ram_dq0.qip
+set_global_assignment -name MIF_FILE DATA.mif
+set_global_assignment -name QIP_FILE lpm_ram_dq1.qip
+set_global_assignment -name MISC_FILE "E:/MIPS/MIPS.dpf"
+set_global_assignment -name VHDL_FILE MUX2_1.vhd
+set_global_assignment -name QIP_FILE lpm_latch1.qip
+set_global_assignment -name VHDL_FILE Shift2.vhd
+set_global_assignment -name VHDL_FILE Extend.vhd
+set_global_assignment -name QIP_FILE lpm_mux0.qip
+set_global_assignment -name QIP_FILE lpm_mux1.qip
+set_global_assignment -name QIP_FILE lpm_mux2.qip
+set_global_assignment -name QIP_FILE lpm_mux3.qip
+set_global_assignment -name QIP_FILE lpm_latch2.qip
+set_global_assignment -name QIP_FILE lpm_latch3.qip
+set_global_assignment -name BDF_FILE test1.bdf
+set_global_assignment -name VHDL_FILE ALUControl.vhd
+set_global_assignment -name VHDL_FILE Shiftto28.vhd
+set_global_assignment -name VHDL_FILE Combine.vhd
+set_global_assignment -name QIP_FILE lpm_ram_dq2.qip
+set_global_assignment -name QIP_FILE lMemory.qip
+set_global_assignment -name VHDL_FILE ul_c.vhd
+set_global_assignment -name BDF_FILE stmp_test.bdf
+set_global_assignment -name SIMULATOR_GENERATE_SIGNAL_ACTIVITY_FILE ON
+set_global_assignment -name SIMULATOR_SIGNAL_ACTIVITY_FILE_OUTPUT_DESTINATION MIPS.saf
+set_global_assignment -name VHDL_FILE Translate.vhd
+set_global_assignment -name MIF_FILE Memory.mif
+set_global_assignment -name BDF_FILE DMA.bdf
+set_global_assignment -name QIP_FILE lpm_latch4.qip
+set_global_assignment -name QIP_FILE lpm_bustri1.qip
+set_global_assignment -name VECTOR_WAVEFORM_FILE dmatest.vwf
+set_global_assignment -name QIP_FILE lpm_ram_dq3.qip
+set_global_assignment -name BDF_FILE MDMA.bdf
+set_global_assignment -name VHDL_FILE ADD.vhd
+set_global_assignment -name VECTOR_WAVEFORM_FILE ADDTest.vwf
+set_global_assignment -name BDF_FILE ADDTest.bdf
+set_global_assignment -name QIP_FILE lpm_mux4.qip
+set_global_assignment -name QIP_FILE lpm_mux5.qip
+set_global_assignment -name VHDL_FILE IsEqule.vhd
+set_global_assignment -name VECTOR_WAVEFORM_FILE MDAMTest.vwf
+set_global_assignment -name VHDL_FILE DMAControl.vhd
+set_global_assignment -name VECTOR_WAVEFORM_FILE Reg_sTest.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE MUX31Test.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE L_RegTest.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE RegTest.vwf
+set_global_assignment -name VHDL_FILE Reg_n.vhd
+set_global_assignment -name QIP_FILE lpm_bustri2.qip
+set_global_assignment -name BDF_FILE testBustri1.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE bustriTest.vwf
+set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "2.5 V"
+set_location_assignment PIN_44 -to cin[0]
+set_location_assignment PIN_45 -to cin[1]
+set_location_assignment PIN_46 -to cin[2]
+set_location_assignment PIN_49 -to cin[3]
+set_location_assignment PIN_50 -to cin[4]
+set_location_assignment PIN_51 -to cin[5]
+set_location_assignment PIN_52 -to cin[6]
+set_location_assignment PIN_55 -to cin[7]
+set_location_assignment PIN_152 -to CLK
+set_location_assignment PIN_39 -to RST
+set_location_assignment PIN_38 -to RSTC
+set_location_assignment PIN_37 -to GATE
+set_global_assignment -name VECTOR_WAVEFORM_FILE srmp.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE MIPSTest.vwf
+set_global_assignment -name BDF_FILE ImemoryTes.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE ImemoryTest.vwf
+set_global_assignment -name BDF_FILE ALUTest.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE ALUTest.vwf
+set_global_assignment -name END_TIME "30 ms"
+set_global_assignment -name SIMULATOR_SIGNAL_ACTIVITY_FILE_START_TIME "0 us"
+set_global_assignment -name SIMULATOR_SIGNAL_ACTIVITY_FILE_END_TIME "1 s"
+set_global_assignment -name GLITCH_DETECTION OFF
+set_global_assignment -name SETUP_HOLD_DETECTION OFF
+set_global_assignment -name VHDL_FILE CounterReg.vhd
+set_global_assignment -name MISC_FILE "D:/MIPS/MIPS.dpf"
+set_location_assignment PIN_56 -to Instruction[0]
+set_location_assignment PIN_57 -to Instruction[1]
+set_location_assignment PIN_63 -to Instruction[2]
+set_location_assignment PIN_68 -to Instruction[3]
+set_location_assignment PIN_69 -to Instruction[4]
+set_location_assignment PIN_70 -to Instruction[5]
+set_location_assignment PIN_73 -to Instruction[6]
+set_location_assignment PIN_76 -to Instruction[7]
+set_location_assignment PIN_78 -to Instruction[8]
+set_location_assignment PIN_80 -to Instruction[9]
+set_location_assignment PIN_112 -to Instruction[10]
+set_location_assignment PIN_113 -to Instruction[11]
+set_location_assignment PIN_114 -to Instruction[12]
+set_location_assignment PIN_117 -to Instruction[13]
+set_location_assignment PIN_118 -to Instruction[14]
+set_location_assignment PIN_126 -to Instruction[15]
+set_location_assignment PIN_127 -to Instruction[16]
+set_location_assignment PIN_128 -to Instruction[17]
+set_location_assignment PIN_131 -to Instruction[18]
+set_location_assignment PIN_132 -to Instruction[19]
+set_location_assignment PIN_133 -to Instruction[20]
+set_location_assignment PIN_134 -to Instruction[21]
+set_location_assignment PIN_135 -to Instruction[22]
+set_location_assignment PIN_137 -to Instruction[23]
+set_location_assignment PIN_139 -to Instruction[24]
+set_location_assignment PIN_142 -to Instruction[25]
+set_location_assignment PIN_143 -to Instruction[26]
+set_location_assignment PIN_144 -to Instruction[27]
+set_location_assignment PIN_145 -to Instruction[28]
+set_location_assignment PIN_146 -to Instruction[29]
+set_location_assignment PIN_159 -to Instruction[30]
+set_location_assignment PIN_160 -to Instruction[31]
+set_global_assignment -name VHDL_FILE Combine32.vhd
+set_global_assignment -name BDF_FILE ALUControlTest.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE ALUControlTest.vwf
+set_global_assignment -name QIP_FILE lpm_counter2.qip
+set_global_assignment -name VECTOR_WAVEFORM_FILE CounterTest.vwf
+set_global_assignment -name VHDL_FILE PCControl.vhd
+set_global_assignment -name VECTOR_WAVEFORM_FILE PCControlTest.vwf
+set_global_assignment -name VHDL_FILE Set0.vhd
+set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE MIPSTest.vwf
+set_global_assignment -name BDF_FILE MFDMA.bdf
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name LL_ROOT_REGION ON -section_id "Root Region"
+set_global_assignment -name LL_MEMBER_STATE LOCKED -section_id "Root Region"
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

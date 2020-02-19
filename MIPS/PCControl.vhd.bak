@@ -1,0 +1,28 @@
+LIBRARY IEEE;
+USE IEEE.STD_LOGIC_1164.ALL;
+USE IEEE.STD_LOGIC_UNSIGNED.ALL;
+ENTITY PCControl IS
+PORT (
+  PCC : IN STD_LOGIC;
+  IsEnd  : IN  STD_LOGIC;
+  F  : OUT STD_LOGIC
+  );
+END PCControl;
+ARCHITECTURE behav OF PCControl IS
+
+
+BEGIN
+PROCESS(PCC,IsEnd)
+
+BEGIN
+
+    IF PCC'event and PCC='1'
+    THEN
+		F<='1';
+	END IF;
+	IF IsEnd'event and IsEnd='0'
+	THEN 
+		F<='0';
+	END IF;
+ END PROCESS;
+END behav;

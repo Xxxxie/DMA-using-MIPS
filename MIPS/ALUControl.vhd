@@ -1,0 +1,22 @@
+LIBRARY IEEE;
+USE IEEE.STD_LOGIC_1164.ALL;
+USE IEEE.STD_LOGIC_UNSIGNED.ALL;
+entity ALUControl is
+port(	 OP  : in	std_logic_vector(5 downto 0);
+		 S	 : in	std_logic_vector(1 downto 0);
+		 Z	 :	out	std_logic_vector(5 downto 0) );
+end ALUControl;
+architecture one of ALUControl is
+SIGNAL F : STD_LOGIC_VECTOR(5 DOWNTO 0);
+	begin
+		process(S,OP)
+			begin
+				case S is 
+					when "00" => F<="000010";
+					when "01" => F<="000110";
+					when "10" => F<=OP(5 downto 0);
+					when others =>F<="000000";
+				end case;
+		end process;
+		Z<=F(5 downto 0);
+	end one ;
